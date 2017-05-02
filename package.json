@@ -5,7 +5,7 @@
   "main": "test_server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node test_server.js"
+    "start": "nodemon test_server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/aybkao/FreedomFighters1#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "pdf-table-extractor": "^1.0.3"
   },
   "engines": {
     "node": ">=6.9.5"
