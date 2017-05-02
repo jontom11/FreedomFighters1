@@ -4,9 +4,7 @@ var pdf_table_extractor = require("pdf-table-extractor");
 
 
 app.get('/', function(request, response) {
-  
- 
- 
+  response.send("JT ROCKS the Party!!!");
 });
 
 var port = process.env.PORT || 5000;
