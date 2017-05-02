@@ -1,0 +1,26 @@
+{
+  "name": "freedomfighters1",
+  "version": "1.0.0",
+  "description": "Greenfield",
+  "main": "test_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node test_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aybkao/FreedomFighters1.git"
+  },
+  "author": "Freedom Fighters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aybkao/FreedomFighters1/issues"
+  },
+  "homepage": "https://github.com/aybkao/FreedomFighters1#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  },
+}
