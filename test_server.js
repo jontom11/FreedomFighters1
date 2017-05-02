@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var pdf_table_extractor = require("pdf-table-extractor");
 
-
 app.get('/', function(request, response) {  
   function success(result) {
     Result = JSON.parse( JSON.stringify(result) );
